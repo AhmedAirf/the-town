@@ -24,10 +24,7 @@ const Header = () => {
                 />
               </svg>
             </div>
-            <ul
-              tabIndex={0}
-              className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
-            >
+            <ul className=" bg-black menu menu-sm dropdown-content rounded-box z-50 mt-3 w-52 p-2 shadow">
               <li>
                 <a>Introduction</a>
               </li>
@@ -86,7 +83,7 @@ const Header = () => {
 
       <div className="relative w-full h-[60vh] md:h-[80vh] lg:h-screen">
         <img
-          src="/public/img/the-town-bg-01.jpg"
+          src="/img/the-town-bg-01.jpg"
           alt="The Town"
           className="w-full h-full object-cover"
         />
