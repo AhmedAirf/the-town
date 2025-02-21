@@ -1,14 +1,14 @@
 const Introduction = () => {
   return (
-    <div className="flex flex-col md:flex-row p-6 md:p-16 gap-6 md:gap-20 mt-12">
-      <div className="flex items-center justify-center md:justify-start">
+    <div className="flex  flex-col md:flex-row p-6 md:p-16 gap-6 md:gap-20 mt-25 sm:">
+      <div className="flex items-center  justify-center md:justify-start  ">
         <img
           src="/img/the-town-01.jpg"
           alt="Town Image"
-          className="w-full md:w-[40em] lg:w-[50em] rounded-lg shadow-lg"
+          className="w-full md:w-[40em] lg:w-[50em] rounded-lg shadow-lg  "
         />
       </div>
-      <div className="flex flex-col gap-5 md:gap-7 text-center md:text-left">
+      <div className="flex flex-col gap-5 md:gap-7 text-center md:text-left  ">
         <h1 className="text-2xl md:text-3xl font-bold text-cyan-600">
           <span>Introduction</span>
         </h1>

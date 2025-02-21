@@ -24,7 +24,7 @@ const Header = () => {
                 />
               </svg>
             </div>
-            <ul className=" bg-black menu menu-sm dropdown-content rounded-box z-50 mt-3 w-52 p-2 shadow">
+            <ul className="bg-black menu menu-sm dropdown-content rounded-box z-50 mt-3 w-52 p-2 shadow">
               <li>
                 <a>Introduction</a>
               </li>
@@ -37,11 +37,13 @@ const Header = () => {
             </ul>
           </div>
         </div>
+
         <div className="navbar-center">
-          <a className="btn btn-ghost text-3xl md:text-4xl cursor-pointer">
+          <a className="btn btn-ghost text-xl md:text-3xl lg:text-4xl cursor-pointer">
             The Town
           </a>
         </div>
+
         <div className="navbar-end">
           <button className="btn btn-ghost btn-circle">
             <svg
@@ -81,17 +83,17 @@ const Header = () => {
         </div>
       </div>
 
-      <div className="relative w-full h-[60vh] md:h-[80vh] lg:h-screen">
+      <div className="relative w-full h-[40vh] sm:h-[50vh] md:h-[60vh] lg:h-[70vh] xl:h-[80vh] 2xl:h-[90vh]">
         <img
           src="/img/the-town-bg-01.jpg"
           alt="The Town"
-          className="w-full h-full object-cover"
+          className="w-full  object-cover"
         />
-        <div className="absolute inset-0 flex items-center justify-center flex-col gap-2 bg-opacity-40">
-          <h1 className="text-4xl md:text-6xl font-bold text-white">
+        <div className="absolute inset-0 flex items-center justify-center flex-col gap-2 bg-opacity-40   ">
+          <h1 className="text-3xl sm:text-4xl   md:text-5xl lg:text-6xl xl:text-7xl font-bold text-white">
             The Town
           </h1>
-          <p className="text-xl md:text-3xl font-semibold text-white">
+          <p className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold text-white">
             By Ahmed
           </p>
         </div>
