@@ -26,13 +26,13 @@ const Header = () => {
             </div>
             <ul className="bg-black menu menu-sm dropdown-content rounded-box z-50 mt-3 w-52 p-2 shadow">
               <li>
-                <a>Introduction</a>
+                <a href="#introduction">Introduction</a>
               </li>
               <li>
-                <a>Our work</a>
+                <a href="#our-work">Our-Work</a>
               </li>
               <li>
-                <a>Contact us</a>
+                <a href="#contact-us">contact-us</a>
               </li>
             </ul>
           </div>
@@ -83,14 +83,14 @@ const Header = () => {
         </div>
       </div>
 
-      <div className="relative w-full h-[40vh] sm:h-[50vh] md:h-[60vh] lg:h-[70vh] xl:h-[80vh] 2xl:h-[90vh]">
+      <div className="relative w-full h-screen sm:h-[50vh] md:h-[60vh] lg:h-[70vh] xl:h-[80vh] 2xl:h-[90vh]">
         <img
           src="/img/the-town-bg-01.jpg"
           alt="The Town"
-          className="w-full  object-cover"
+          className="w-full h-full object-cover"
         />
-        <div className="absolute inset-0 flex items-center justify-center flex-col gap-2 bg-opacity-40   ">
-          <h1 className="text-3xl sm:text-4xl   md:text-5xl lg:text-6xl xl:text-7xl font-bold text-white">
+        <div className="absolute inset-0 flex items-center justify-center flex-col gap-2 bg-opacity-40">
+          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold text-white">
             The Town
           </h1>
           <p className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold text-white">
